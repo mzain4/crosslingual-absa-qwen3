@@ -1,0 +1,15 @@
+# Runtime dependencies.
+# A single 8 GB GPU is enough for every strategy reported in the paper.
+#
+# bitsandbytes needs a CUDA GPU. The data preparation step and the full test
+# suite run without it, so you can validate a checkout on CPU before training.
+
+torch>=2.2
+transformers>=4.51
+peft>=0.11
+bitsandbytes>=0.43
+accelerate>=0.30
+datasets>=2.19
+
+# Development only:
+pytest>=8.0

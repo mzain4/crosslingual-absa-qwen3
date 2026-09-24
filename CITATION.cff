@@ -1,0 +1,81 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it and the M-ABSA benchmark. Paper publication details will be added after acceptance."
+title: "Cross-Lingual Aspect-Based Sentiment Analysis of E-Commerce Reviews with Memory-Efficient QLoRA-Adapted Qwen3-4B"
+abstract: >-
+  Compares three adaptation strategies for cross-lingual aspect-based sentiment
+  analysis on a single 8 GB consumer GPU: zero-shot prompting, three-shot
+  prompting with English examples, and QLoRA adapter training on English data.
+  Evaluated on the M-ABSA benchmark over three domains and six languages with
+  two task formulations, scored by exact-tuple micro-F1.
+type: software
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/mzain4/crosslingual-absa-qwen3"
+keywords:
+  - aspect-based sentiment analysis
+  - cross-lingual transfer
+  - few-shot prompting
+  - QLoRA
+  - parameter-efficient fine-tuning
+  - large language models
+  - M-ABSA
+authors:
+  - family-names: "Zain Ul Abidin"
+    given-names: "Muhammad"
+    affiliation: "University of Management and Technology, Sialkot Campus, Pakistan"
+  - family-names: "Wasim"
+    given-names: "Muhammad"
+    affiliation: "University of Management and Technology, Sialkot Campus, Pakistan"
+preferred-citation:
+  type: software
+  title: "Cross-Lingual Aspect-Based Sentiment Analysis of E-Commerce Reviews with Memory-Efficient QLoRA-Adapted Qwen3-4B"
+  year: 2026
+  version: "1.0.0"
+  repository-code: "https://github.com/mzain4/crosslingual-absa-qwen3"
+  authors:
+    - family-names: "Zain Ul Abidin"
+      given-names: "Muhammad"
+      affiliation: "University of Management and Technology, Sialkot Campus, Pakistan"
+    - family-names: "Wasim"
+      given-names: "Muhammad"
+      affiliation: "University of Management and Technology, Sialkot Campus, Pakistan"
+references:
+  - type: conference-paper
+    title: "M-ABSA: A Multilingual Dataset for Aspect-Based Sentiment Analysis"
+    collection-title: "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing"
+    year: 2025
+    doi: "10.18653/v1/2025.emnlp-main.128"
+    authors:
+      - family-names: "Wu"
+        given-names: "ChengYan"
+      - family-names: "Ma"
+        given-names: "Bolei"
+      - family-names: "Liu"
+        given-names: "Yihong"
+      - family-names: "Zhang"
+        given-names: "Zheyu"
+      - family-names: "Deng"
+        given-names: "Ningyuan"
+      - family-names: "Li"
+        given-names: "Yanshu"
+      - family-names: "Chen"
+        given-names: "Baolan"
+      - family-names: "Zhang"
+        given-names: "Yi"
+      - family-names: "Xue"
+        given-names: "Yun"
+      - family-names: "Plank"
+        given-names: "Barbara"
+  - type: conference-paper
+    title: "QLoRA: Efficient Finetuning of Quantized LLMs"
+    collection-title: "Advances in Neural Information Processing Systems"
+    year: 2023
+    authors:
+      - family-names: "Dettmers"
+        given-names: "Tim"
+      - family-names: "Pagnoni"
+        given-names: "Artidoro"
+      - family-names: "Holtzman"
+        given-names: "Ari"
+      - family-names: "Zettlemoyer"
+        given-names: "Luke"

@@ -1,0 +1,46 @@
+{
+  "strategy": "qlora",
+  "description": "One LoRA adapter per domain and task, trained on the full English training split. The adapter is frozen for every language test, including English.",
+  "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_revision": "cdbee75f",
+  "domains": ["food", "laptop", "phone"],
+  "languages": ["en", "de", "fr", "ar", "hi", "sw"],
+  "tasks": ["tasd", "uabsa"],
+  "source_language": "en",
+  "quantisation": {
+    "load_in_4bit": true,
+    "quant_type": "nf4",
+    "double_quantisation": true,
+    "compute_dtype": "bfloat16"
+  },
+  "lora": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
+    "trainable_parameters_per_adapter": 16515072,
+    "share_of_base_model_percent": 0.41
+  },
+  "training": {
+    "epochs": 3,
+    "learning_rate": 0.0002,
+    "per_device_batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "max_sequence_length": 1536,
+    "optimiser": "paged_adamw_8bit",
+    "lr_scheduler": "constant",
+    "loss_on_answer_tokens_only": true,
+    "initialization_seed": 13,
+    "trainer_seed": 42
+  },
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": { "tasd": 128, "uabsa": 96 }
+  },
+  "scoring": {
+    "evaluator": "M-ABSA eval_baseline_mT5/eval_utils.py",
+    "metric": "raw exact-tuple micro-F1",
+    "edit_distance_repair": false,
+    "empty_tasd_mode": "released_evaluator"
+  }
+}

@@ -1,0 +1,34 @@
+# Model weights, adapters and generated predictions are never committed.
+# outputs/ is deliberately NOT ignored here: it holds the recorded results that
+# every number in the paper is derived from.
+*.safetensors
+*.bin
+*.pt
+*.pth
+models/
+checkpoints/
+adapters/
+runs/
+predictions/
+*.jsonl
+
+# The M-ABSA checkout is downloaded on demand, not vendored.
+vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

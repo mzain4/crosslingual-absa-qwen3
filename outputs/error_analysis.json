@@ -1,0 +1,136 @@
+{
+  "scope": "All QLoRA full-test predictions: 3 domains x 6 languages x 2 tasks",
+  "total_predictions": 18912,
+  "classification_priority": [
+    "format_or_schema",
+    "exact_match",
+    "missed_all",
+    "false_positive",
+    "wrong_tuple_count",
+    "sentiment_error",
+    "category_error",
+    "aspect_boundary_or_target",
+    "tuple_alignment_or_duplicate"
+  ],
+  "overall": {
+    "exact_match": 5242,
+    "category_error": 1400,
+    "wrong_tuple_count": 4643,
+    "sentiment_error": 1500,
+    "aspect_boundary_or_target": 2107,
+    "format_or_schema": 198,
+    "missed_all": 3687,
+    "false_positive": 135
+  },
+  "by_task": {
+    "tasd": {
+      "exact_match": 2294,
+      "category_error": 1400,
+      "wrong_tuple_count": 2285,
+      "sentiment_error": 729,
+      "aspect_boundary_or_target": 767,
+      "format_or_schema": 123,
+      "missed_all": 1796,
+      "false_positive": 62
+    },
+    "uabsa": {
+      "exact_match": 2948,
+      "aspect_boundary_or_target": 1340,
+      "wrong_tuple_count": 2358,
+      "sentiment_error": 771,
+      "format_or_schema": 75,
+      "missed_all": 1891,
+      "false_positive": 73
+    }
+  },
+  "by_domain": {
+    "food": {
+      "exact_match": 1385,
+      "category_error": 252,
+      "wrong_tuple_count": 1191,
+      "missed_all": 2508,
+      "aspect_boundary_or_target": 585,
+      "sentiment_error": 343
+    },
+    "laptop": {
+      "exact_match": 2350,
+      "category_error": 897,
+      "wrong_tuple_count": 1350,
+      "sentiment_error": 932,
+      "aspect_boundary_or_target": 827,
+      "format_or_schema": 28
+    },
+    "phone": {
+      "aspect_boundary_or_target": 695,
+      "wrong_tuple_count": 2102,
+      "exact_match": 1507,
+      "sentiment_error": 225,
+      "missed_all": 1179,
+      "category_error": 251,
+      "format_or_schema": 170,
+      "false_positive": 135
+    }
+  },
+  "by_language": {
+    "en": {
+      "exact_match": 1261,
+      "category_error": 252,
+      "wrong_tuple_count": 822,
+      "sentiment_error": 226,
+      "aspect_boundary_or_target": 288,
+      "format_or_schema": 18,
+      "missed_all": 254,
+      "false_positive": 31
+    },
+    "de": {
+      "exact_match": 1000,
+      "category_error": 270,
+      "aspect_boundary_or_target": 318,
+      "wrong_tuple_count": 840,
+      "sentiment_error": 217,
+      "format_or_schema": 43,
+      "missed_all": 439,
+      "false_positive": 25
+    },
+    "fr": {
+      "aspect_boundary_or_target": 436,
+      "category_error": 247,
+      "exact_match": 941,
+      "wrong_tuple_count": 852,
+      "sentiment_error": 216,
+      "format_or_schema": 31,
+      "missed_all": 402,
+      "false_positive": 27
+    },
+    "ar": {
+      "exact_match": 911,
+      "wrong_tuple_count": 852,
+      "category_error": 239,
+      "aspect_boundary_or_target": 469,
+      "sentiment_error": 230,
+      "format_or_schema": 39,
+      "missed_all": 383,
+      "false_positive": 29
+    },
+    "hi": {
+      "aspect_boundary_or_target": 446,
+      "exact_match": 855,
+      "category_error": 232,
+      "wrong_tuple_count": 868,
+      "sentiment_error": 239,
+      "format_or_schema": 61,
+      "missed_all": 429,
+      "false_positive": 22
+    },
+    "sw": {
+      "category_error": 160,
+      "sentiment_error": 372,
+      "wrong_tuple_count": 409,
+      "aspect_boundary_or_target": 150,
+      "exact_match": 274,
+      "format_or_schema": 6,
+      "missed_all": 1780,
+      "false_positive": 1
+    }
+  }
+}

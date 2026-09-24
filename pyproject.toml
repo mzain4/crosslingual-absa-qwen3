@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clabsa"
+version = "1.0.0"
+description = "Zero-shot, few-shot and QLoRA adaptation of a small instruction model for cross-lingual ABSA"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Muhammad Zain Ul Abidin" }, { name = "Muhammad Wasim" }]
+keywords = ["aspect-based sentiment analysis", "cross-lingual", "QLoRA", "M-ABSA", "LLM"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "torch>=2.2",
+    "transformers>=4.51",
+    "peft>=0.11",
+    "bitsandbytes>=0.43",
+    "accelerate>=0.30",
+    "datasets>=2.19",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+clabsa = "clabsa.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"

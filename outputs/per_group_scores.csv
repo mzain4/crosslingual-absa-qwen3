@@ -1,0 +1,289 @@
+system,adaptation,provenance,domain,language,language_name,task,split,sample_count,raw_precision,raw_recall,raw_f1,fixed_f1,format_failures,none_predictions,origin
+Qwen3-4B zero-shot,zero-shot prompting,experiment,food,en,English,tasd,test,522,13.937282229965156,10.781671159029651,12.158054711246201,12.158054711246201,9,74,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,food,en,English,uabsa,test,522,19.350282485875706,18.463611859838274,18.89655172413793,16.0,3,44,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,food,de,German,tasd,test,522,10.954616588419405,9.433962264150944,10.137581462708184,10.282404055032584,8,43,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,food,de,German,uabsa,test,522,15.761589403973511,16.037735849056602,15.898463593854375,14.161656646626586,10,22,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,food,fr,French,tasd,test,522,8.695652173913043,7.547169811320755,8.080808080808081,8.225108225108226,0,52,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,food,fr,French,uabsa,test,522,15.755208333333334,16.307277628032345,16.026490066225165,13.245033112582782,2,22,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,food,ar,Arabic,tasd,test,522,9.365079365079366,7.951482479784366,8.600583090379008,8.892128279883382,2,49,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,food,ar,Arabic,uabsa,test,522,17.72315653298836,18.463611859838274,18.085808580858085,17.02970297029703,4,24,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,food,hi,Hindi,tasd,test,522,11.882716049382717,10.377358490566039,11.079136690647482,11.079136690647482,5,39,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,food,hi,Hindi,uabsa,test,522,20.630749014454665,21.159029649595688,20.891550232867598,17.298735861610112,8,10,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,food,sw,Swahili,tasd,test,522,4.710920770877944,2.964959568733154,3.6393713813068653,3.6393713813068653,1,136,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,food,sw,Swahili,uabsa,test,522,11.024844720496894,9.568733153638814,10.245310245310245,9.37950937950938,4,71,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,laptop,en,English,tasd,test,532,22.169059011164276,18.361955085865258,20.08670520231214,20.08670520231214,15,43,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,laptop,en,English,uabsa,test,532,45.46783625730994,41.08322324966975,43.16446911866759,41.7765440666204,1,36,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,laptop,de,German,tasd,test,532,22.22222222222222,18.494055482166445,20.18745493871665,20.18745493871665,22,36,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,laptop,de,German,uabsa,test,532,36.7461430575035,34.61030383091149,35.64625850340136,34.965986394557824,6,27,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,laptop,fr,French,tasd,test,532,14.97659906396256,12.681638044914134,13.733905579399142,13.733905579399142,29,38,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,laptop,fr,French,uabsa,test,532,32.34501347708895,31.704095112285337,32.021347565043364,30.953969312875255,6,12,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,laptop,ar,Arabic,tasd,test,532,17.928902627511594,15.323645970937912,16.524216524216527,16.80911680911681,23,37,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,laptop,ar,Arabic,uabsa,test,532,40.42838018741633,39.89431968295905,40.159574468085104,40.159574468085104,7,18,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,laptop,hi,Hindi,tasd,test,532,20.989761092150168,16.248348745046233,18.317200297840657,18.317200297840657,28,37,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,laptop,hi,Hindi,uabsa,test,532,46.984572230014024,44.253632760898284,45.57823129251701,44.353741496598644,11,13,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,laptop,sw,Swahili,tasd,test,532,7.142857142857142,1.9815059445178336,3.102378490175801,3.102378490175801,2,348,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,laptop,sw,Swahili,uabsa,test,532,19.15966386554622,15.059445178335535,16.86390532544379,17.159763313609467,4,92,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,phone,en,English,tasd,test,522,21.493440968718467,17.502054231717338,19.293478260869566,21.014492753623188,60,67,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,phone,en,English,uabsa,test,522,32.05329153605015,33.60723089564503,32.81187324508624,35.29883674288006,8,36,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,phone,de,German,tasd,test,522,21.458333333333332,16.926869350862777,18.925126320624717,19.568213137344966,69,76,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,phone,de,German,uabsa,test,522,29.283990345937248,29.90961380443714,29.593495934959353,29.67479674796748,18,29,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,phone,fr,French,tasd,test,522,17.531120331950206,13.898026315789474,15.504587155963304,16.88073394495413,82,75,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,phone,fr,French,uabsa,test,522,26.171875,27.549342105263158,26.842948717948712,28.685897435897427,15,23,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,phone,ar,Arabic,tasd,test,522,15.843621399176955,12.65406737880033,14.07035175879397,16.26313385107355,80,61,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,phone,ar,Arabic,uabsa,test,522,31.516587677725116,32.785538208709944,32.138542086186064,33.74949657672171,16,16,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,phone,hi,Hindi,tasd,test,522,18.202764976958523,12.982744453574362,15.15587529976019,17.170263788968825,84,63,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,phone,hi,Hindi,uabsa,test,522,26.660516605166052,23.746918652423993,25.11951325510648,25.11951325510648,58,16,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,phone,sw,Swahili,tasd,test,522,6.575963718820861,2.38290879211175,3.498190591073582,4.583835946924005,64,277,this repository
+Qwen3-4B zero-shot,zero-shot prompting,experiment,phone,sw,Swahili,uabsa,test,522,16.51829871414441,13.72226787181594,14.991023339317774,15.35008976660682,17,49,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,food,en,English,tasd,test,522,16.314199395770395,14.555256064690028,15.384615384615385,15.384615384615385,5,43,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,food,en,English,uabsa,test,522,24.907063197026023,27.088948787061994,25.952227243382826,21.30406714009038,3,11,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,food,de,German,tasd,test,522,13.23024054982818,10.377358490566039,11.63141993957704,11.933534743202417,6,89,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,food,de,German,uabsa,test,522,24.03846153846154,23.58490566037736,23.80952380952381,21.088435374149658,6,39,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,food,fr,French,tasd,test,522,14.18918918918919,11.320754716981133,12.593703148425789,12.893553223388304,4,89,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,food,fr,French,uabsa,test,522,21.059602649006624,21.428571428571427,21.24248496993988,16.7000668002672,1,41,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,food,ar,Arabic,tasd,test,522,14.090019569471623,9.703504043126685,11.492418196328812,11.492418196328812,3,136,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,food,ar,Arabic,uabsa,test,522,21.112696148359486,19.946091644204852,20.51282051282051,18.295218295218298,3,71,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,food,hi,Hindi,tasd,test,522,16.43835616438356,12.93800539083558,14.479638009049772,14.479638009049772,3,74,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,food,hi,Hindi,uabsa,test,522,24.566473988439306,22.911051212938006,23.709902370990235,18.270571827057182,3,45,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,food,sw,Swahili,tasd,test,522,4.398826979472141,2.0215633423180592,2.7700831024930745,2.7700831024930745,1,259,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,food,sw,Swahili,uabsa,test,522,12.121212121212121,10.781671159029651,11.412268188302425,9.700427960057063,3,99,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,laptop,en,English,tasd,test,532,23.581336696090794,24.702774108322327,24.129032258064516,24.129032258064516,10,19,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,laptop,en,English,uabsa,test,532,44.7098976109215,51.915455746367236,48.0440097799511,47.43276283618583,3,7,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,laptop,de,German,tasd,test,532,22.8490832157969,21.400264200792602,22.10095497953615,22.373806275579806,16,61,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,laptop,de,German,uabsa,test,532,47.15346534653465,50.330250990752965,48.69009584664536,46.90095846645367,6,19,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,laptop,fr,French,tasd,test,532,19.246861924686193,18.229854689564068,18.724559023066487,18.724559023066487,23,64,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,laptop,fr,French,uabsa,test,532,40.8716136631331,45.83883751651255,43.212951432129515,40.72229140722292,5,23,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,laptop,ar,Arabic,tasd,test,532,16.332378223495702,15.059445178335535,15.670103092783505,16.3573883161512,19,74,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,laptop,ar,Arabic,uabsa,test,532,39.31847968545216,39.63011889035667,39.473684210526315,37.89473684210526,3,32,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,laptop,hi,Hindi,tasd,test,532,17.352941176470587,15.587846763540291,16.423103688239387,16.562282533054976,15,37,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,laptop,hi,Hindi,uabsa,test,532,44.95530012771392,46.49933949801849,45.714285714285715,39.22077922077922,5,7,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,laptop,sw,Swahili,tasd,test,532,5.8988764044943816,2.7741083223249667,3.7735849056603765,3.7735849056603765,2,295,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,laptop,sw,Swahili,uabsa,test,532,18.264248704663213,18.626155878467635,18.4434270765206,14.91170699803793,2,56,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,phone,en,English,tasd,test,522,19.292851652574942,20.624486442070666,19.93645750595711,23.03415409054805,45,30,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,phone,en,English,uabsa,test,522,29.388029589778075,35.90797041906327,32.322485207100584,38.68343195266273,9,12,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,phone,de,German,tasd,test,522,19.632414369256473,19.309778142974526,19.469759734879865,19.635459817729906,61,49,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,phone,de,German,uabsa,test,522,34.668508287292816,41.24897288414133,37.673545966228886,38.64915572232645,16,22,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,phone,fr,French,tasd,test,522,17.258883248730964,16.776315789473685,17.01417848206839,17.514595496246873,61,66,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,phone,fr,French,uabsa,test,522,26.51162790697674,32.8125,29.32745314222712,32.04704152884968,17,14,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,phone,ar,Arabic,tasd,test,522,16.876971608832807,17.584223500410847,17.223340040241446,17.78672032193159,48,51,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,phone,ar,Arabic,uabsa,test,522,28.562091503267972,35.90797041906327,31.81652712049508,33.491081179468516,17,21,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,phone,hi,Hindi,tasd,test,522,13.4953897736798,13.229252259654888,13.360995850622407,14.771784232365146,58,37,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,phone,hi,Hindi,uabsa,test,522,26.842513576415826,28.430566967953986,27.613727055067837,28.890662410215484,49,14,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,phone,sw,Swahili,tasd,test,522,5.727923627684964,3.9441248972884138,4.671532846715328,5.060827250608272,36,192,this repository
+Qwen3-4B three-shot,three-shot prompting,experiment,phone,sw,Swahili,uabsa,test,522,15.67111735769501,18.32374691865242,16.89393939393939,18.106060606060606,21,31,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,laptop,en,English,tasd,test,532,50.54495912806539,49.00924702774108,49.76525821596244,49.76525821596244,1,0,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,laptop,en,English,uabsa,test,532,75.79529737206086,72.39101717305152,74.05405405405406,59.45945945945945,1,0,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,laptop,de,German,tasd,test,532,41.57303370786517,39.101717305151915,40.29952348536419,40.84411164057182,2,0,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,laptop,fr,French,tasd,test,532,35.50624133148405,33.81770145310436,34.64140730717185,34.64140730717185,6,0,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,laptop,ar,Arabic,tasd,test,532,39.85714285714286,36.85601056803171,38.297872340425535,38.297872340425535,4,0,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,laptop,hi,Hindi,tasd,test,532,37.48079877112136,32.23249669749009,34.659090909090914,34.659090909090914,5,0,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,laptop,sw,Swahili,tasd,test,532,7.818181818181818,5.680317040951123,6.579954093343536,6.579954093343536,1,0,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,laptop,de,German,uabsa,test,532,66.38537271448664,62.351387054161165,64.30517711171662,55.31335149863761,3,0,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,laptop,fr,French,uabsa,test,532,57.73480662983425,55.21796565389696,56.44834571235652,45.37474679270763,2,0,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,laptop,ar,Arabic,uabsa,test,532,61.59420289855072,56.14266842800528,58.74222529371112,49.06703524533518,1,0,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,laptop,hi,Hindi,uabsa,test,532,65.0381679389313,56.27476882430648,60.339943342776216,47.59206798866855,1,0,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,laptop,sw,Swahili,uabsa,test,532,20.588235294117645,14.795244385733158,17.217524980784013,13.374327440430436,1,0,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,food,en,English,tasd,test,522,59.88483685220729,42.04851752021563,49.4061757719715,49.4061757719715,0,105,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,food,en,English,uabsa,test,522,72.70955165692008,50.26954177897574,59.442231075697215,20.0796812749004,0,107,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,food,de,German,tasd,test,522,52.13483146067416,31.266846361185983,39.090143218197134,39.76411120471777,0,156,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,food,fr,French,tasd,test,522,49.67032967032967,30.45822102425876,37.761069340016704,37.9281537176274,0,150,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,food,ar,Arabic,tasd,test,522,49.22737306843267,30.05390835579515,37.32217573221758,37.99163179916318,0,142,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,food,hi,Hindi,tasd,test,522,40.091116173120724,23.71967654986523,29.805249788314985,29.974597798475873,0,147,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,food,sw,Swahili,tasd,test,522,32.5,1.7520215633423182,3.324808184143223,3.324808184143223,0,487,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,food,de,German,uabsa,test,522,69.74358974358974,36.65768194070081,48.0565371024735,18.90459363957597,0,195,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,food,fr,French,uabsa,test,522,59.56416464891041,33.153638814016176,42.5974025974026,13.679653679653677,0,176,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,food,ar,Arabic,uabsa,test,522,61.55717761557178,34.097035040431265,43.88551604509974,15.784908933217693,0,171,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,food,hi,Hindi,uabsa,test,522,49.75369458128079,27.22371967654987,35.19163763066202,3.3101045296167246,0,177,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,food,sw,Swahili,uabsa,test,522,34.375,1.482479784366577,2.8423772609819125,2.0671834625323,0,495,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,phone,en,English,tasd,test,522,57.14285714285714,53.57436318816763,55.30110262934691,55.30110262934691,11,79,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,phone,en,English,uabsa,test,522,61.480865224625624,60.72308956450287,61.099627945432,61.099627945432,5,78,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,phone,de,German,tasd,test,522,50.10438413361169,39.44124897288414,44.13793103448276,44.13793103448276,22,111,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,phone,fr,French,tasd,test,522,45.9214501510574,37.5,41.28564961521051,41.557265731100046,16,102,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,phone,ar,Arabic,tasd,test,522,41.6015625,35.004108463434676,38.01874163319947,39.0896921017403,20,95,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,phone,hi,Hindi,tasd,test,522,47.30538922155689,32.45686113393591,38.499025341130604,38.499025341130604,32,114,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,phone,sw,Swahili,tasd,test,522,22.35294117647059,1.561216105176664,2.9185867895545314,2.9185867895545314,3,482,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,phone,de,German,uabsa,test,522,56.90335305719921,47.41166803615448,51.72568354997759,51.72568354997759,16,96,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,phone,fr,French,uabsa,test,522,49.395348837209305,43.66776315789473,46.355303360977736,46.52989960715845,7,92,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,phone,ar,Arabic,uabsa,test,522,45.2991452991453,39.19474116680362,42.02643171806167,43.436123348017624,14,92,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,phone,hi,Hindi,uabsa,test,522,49.70622796709753,34.757600657354146,40.909090909090914,40.909090909090914,23,115,this repository
+Qwen3-4B QLoRA,English QLoRA,experiment,phone,sw,Swahili,uabsa,test,522,35.77981651376147,3.2046014790468362,5.88235294117647,6.334841628959276,1,461,this repository
+mT5-base fine-tuned,published baseline,M-ABSA published result,food,en,English,tasd,test,,,,48.87,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,food,en,English,tasd,test,,,,15.56,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,food,en,English,tasd,test,,,,14.33,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,food,en,English,tasd,test,,,,6.77,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,food,en,English,tasd,test,,,,9.9,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,food,en,English,uabsa,test,,,,72.75,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,food,en,English,uabsa,test,,,,21.37,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,food,en,English,uabsa,test,,,,21.37,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,food,en,English,uabsa,test,,,,23.43,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,food,en,English,uabsa,test,,,,21.97,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,food,de,German,tasd,test,,,,34.33,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,food,de,German,tasd,test,,,,15.25,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,food,de,German,tasd,test,,,,12.6,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,food,de,German,tasd,test,,,,4.12,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,food,de,German,tasd,test,,,,9.49,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,food,de,German,uabsa,test,,,,61.12,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,food,de,German,uabsa,test,,,,26.41,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,food,de,German,uabsa,test,,,,18.93,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,food,de,German,uabsa,test,,,,19.73,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,food,de,German,uabsa,test,,,,21.42,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,food,fr,French,tasd,test,,,,26.83,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,food,fr,French,tasd,test,,,,12.91,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,food,fr,French,tasd,test,,,,8.58,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,food,fr,French,tasd,test,,,,4.72,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,food,fr,French,tasd,test,,,,8.45,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,food,fr,French,uabsa,test,,,,41.43,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,food,fr,French,uabsa,test,,,,23.98,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,food,fr,French,uabsa,test,,,,15.12,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,food,fr,French,uabsa,test,,,,18.57,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,food,fr,French,uabsa,test,,,,18.98,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,food,ar,Arabic,tasd,test,,,,17.21,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,food,ar,Arabic,tasd,test,,,,13.3,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,food,ar,Arabic,tasd,test,,,,6.42,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,food,ar,Arabic,tasd,test,,,,1.79,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,food,ar,Arabic,tasd,test,,,,4.08,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,food,ar,Arabic,uabsa,test,,,,24.64,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,food,ar,Arabic,uabsa,test,,,,22.49,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,food,ar,Arabic,uabsa,test,,,,16.63,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,food,ar,Arabic,uabsa,test,,,,9.42,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,food,ar,Arabic,uabsa,test,,,,17.48,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,food,hi,Hindi,tasd,test,,,,22.36,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,food,hi,Hindi,tasd,test,,,,15.31,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,food,hi,Hindi,tasd,test,,,,7.4,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,food,hi,Hindi,tasd,test,,,,3.33,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,food,hi,Hindi,tasd,test,,,,8.07,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,food,hi,Hindi,uabsa,test,,,,37.29,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,food,hi,Hindi,uabsa,test,,,,26.58,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,food,hi,Hindi,uabsa,test,,,,16.45,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,food,hi,Hindi,uabsa,test,,,,14.89,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,food,hi,Hindi,uabsa,test,,,,20.45,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,food,sw,Swahili,tasd,test,,,,11.06,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,food,sw,Swahili,tasd,test,,,,13.07,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,food,sw,Swahili,tasd,test,,,,8.38,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,food,sw,Swahili,tasd,test,,,,1.16,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,food,sw,Swahili,tasd,test,,,,3.29,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,food,sw,Swahili,uabsa,test,,,,19.83,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,food,sw,Swahili,uabsa,test,,,,22.94,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,food,sw,Swahili,uabsa,test,,,,13.76,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,food,sw,Swahili,uabsa,test,,,,8.66,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,food,sw,Swahili,uabsa,test,,,,11.13,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,laptop,en,English,tasd,test,,,,43.54,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,laptop,en,English,tasd,test,,,,23.43,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,laptop,en,English,tasd,test,,,,19.59,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,laptop,en,English,tasd,test,,,,3.45,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,laptop,en,English,tasd,test,,,,21.61,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,laptop,en,English,uabsa,test,,,,69.69,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,laptop,en,English,uabsa,test,,,,47.71,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,laptop,en,English,uabsa,test,,,,47.71,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,laptop,en,English,uabsa,test,,,,46.75,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,laptop,en,English,uabsa,test,,,,51.42,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,laptop,de,German,tasd,test,,,,27.77,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,laptop,de,German,tasd,test,,,,23.85,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,laptop,de,German,tasd,test,,,,16.07,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,laptop,de,German,tasd,test,,,,8.0,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,laptop,de,German,tasd,test,,,,18.29,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,laptop,de,German,uabsa,test,,,,54.5,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,laptop,de,German,uabsa,test,,,,54.6,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,laptop,de,German,uabsa,test,,,,46.43,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,laptop,de,German,uabsa,test,,,,44.75,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,laptop,de,German,uabsa,test,,,,48.38,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,laptop,fr,French,tasd,test,,,,24.91,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,laptop,fr,French,tasd,test,,,,19.36,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,laptop,fr,French,tasd,test,,,,14.44,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,laptop,fr,French,tasd,test,,,,3.75,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,laptop,fr,French,tasd,test,,,,18.04,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,laptop,fr,French,uabsa,test,,,,48.65,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,laptop,fr,French,uabsa,test,,,,46.15,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,laptop,fr,French,uabsa,test,,,,32.4,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,laptop,fr,French,uabsa,test,,,,32.19,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,laptop,fr,French,uabsa,test,,,,39.94,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,laptop,ar,Arabic,tasd,test,,,,18.73,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,laptop,ar,Arabic,tasd,test,,,,18.31,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,laptop,ar,Arabic,tasd,test,,,,9.53,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,laptop,ar,Arabic,tasd,test,,,,2.55,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,laptop,ar,Arabic,tasd,test,,,,7.79,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,laptop,ar,Arabic,uabsa,test,,,,38.54,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,laptop,ar,Arabic,uabsa,test,,,,48.23,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,laptop,ar,Arabic,uabsa,test,,,,40.67,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,laptop,ar,Arabic,uabsa,test,,,,18.31,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,laptop,ar,Arabic,uabsa,test,,,,39.94,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,laptop,hi,Hindi,tasd,test,,,,23.41,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,laptop,hi,Hindi,tasd,test,,,,20.08,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,laptop,hi,Hindi,tasd,test,,,,16.62,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,laptop,hi,Hindi,tasd,test,,,,1.73,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,laptop,hi,Hindi,tasd,test,,,,10.42,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,laptop,hi,Hindi,uabsa,test,,,,42.5,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,laptop,hi,Hindi,uabsa,test,,,,54.49,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,laptop,hi,Hindi,uabsa,test,,,,45.97,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,laptop,hi,Hindi,uabsa,test,,,,30.39,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,laptop,hi,Hindi,uabsa,test,,,,45.9,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,laptop,sw,Swahili,tasd,test,,,,16.65,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,laptop,sw,Swahili,tasd,test,,,,15.32,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,laptop,sw,Swahili,tasd,test,,,,6.91,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,laptop,sw,Swahili,tasd,test,,,,1.0,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,laptop,sw,Swahili,tasd,test,,,,5.75,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,laptop,sw,Swahili,uabsa,test,,,,34.34,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,laptop,sw,Swahili,uabsa,test,,,,44.29,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,laptop,sw,Swahili,uabsa,test,,,,29.33,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,laptop,sw,Swahili,uabsa,test,,,,16.67,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,laptop,sw,Swahili,uabsa,test,,,,23.49,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,phone,en,English,tasd,test,,,,47.24,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,phone,en,English,tasd,test,,,,25.68,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,phone,en,English,tasd,test,,,,13.62,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,phone,en,English,tasd,test,,,,2.71,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,phone,en,English,tasd,test,,,,18.21,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,phone,en,English,uabsa,test,,,,73.36,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,phone,en,English,uabsa,test,,,,32.32,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,phone,en,English,uabsa,test,,,,32.32,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,phone,en,English,uabsa,test,,,,28.93,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,phone,en,English,uabsa,test,,,,34.09,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,phone,de,German,tasd,test,,,,27.31,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,phone,de,German,tasd,test,,,,29.17,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,phone,de,German,tasd,test,,,,13.92,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,phone,de,German,tasd,test,,,,6.12,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,phone,de,German,tasd,test,,,,17.16,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,phone,de,German,uabsa,test,,,,42.83,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,phone,de,German,uabsa,test,,,,39.8,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,phone,de,German,uabsa,test,,,,30.11,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,phone,de,German,uabsa,test,,,,29.46,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,phone,de,German,uabsa,test,,,,33.08,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,phone,fr,French,tasd,test,,,,24.37,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,phone,fr,French,tasd,test,,,,21.51,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,phone,fr,French,tasd,test,,,,11.83,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,phone,fr,French,tasd,test,,,,1.05,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,phone,fr,French,tasd,test,,,,11.31,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,phone,fr,French,uabsa,test,,,,33.98,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,phone,fr,French,uabsa,test,,,,31.15,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,phone,fr,French,uabsa,test,,,,25.18,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,phone,fr,French,uabsa,test,,,,20.98,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,phone,fr,French,uabsa,test,,,,27.83,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,phone,ar,Arabic,tasd,test,,,,16.97,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,phone,ar,Arabic,tasd,test,,,,25.33,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,phone,ar,Arabic,tasd,test,,,,9.79,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,phone,ar,Arabic,tasd,test,,,,2.58,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,phone,ar,Arabic,tasd,test,,,,6.34,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,phone,ar,Arabic,uabsa,test,,,,27.14,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,phone,ar,Arabic,uabsa,test,,,,32.88,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,phone,ar,Arabic,uabsa,test,,,,26.07,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,phone,ar,Arabic,uabsa,test,,,,9.94,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,phone,ar,Arabic,uabsa,test,,,,24.07,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,phone,hi,Hindi,tasd,test,,,,21.48,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,phone,hi,Hindi,tasd,test,,,,26.04,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,phone,hi,Hindi,tasd,test,,,,11.8,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,phone,hi,Hindi,tasd,test,,,,2.95,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,phone,hi,Hindi,tasd,test,,,,4.49,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,phone,hi,Hindi,uabsa,test,,,,35.91,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,phone,hi,Hindi,uabsa,test,,,,36.11,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,phone,hi,Hindi,uabsa,test,,,,29.01,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,phone,hi,Hindi,uabsa,test,,,,18.75,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,phone,hi,Hindi,uabsa,test,,,,27.48,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,phone,sw,Swahili,tasd,test,,,,13.66,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,phone,sw,Swahili,tasd,test,,,,22.59,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,phone,sw,Swahili,tasd,test,,,,10.54,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,phone,sw,Swahili,tasd,test,,,,1.15,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,phone,sw,Swahili,tasd,test,,,,3.77,,,,M-ABSA paper (published)
+mT5-base fine-tuned,published baseline,M-ABSA published result,phone,sw,Swahili,uabsa,test,,,,24.9,,,,M-ABSA paper (published)
+Gemma-2 zero-shot,published baseline,M-ABSA published result,phone,sw,Swahili,uabsa,test,,,,31.88,,,,M-ABSA paper (published)
+Llama-3.1 zero-shot,published baseline,M-ABSA published result,phone,sw,Swahili,uabsa,test,,,,24.29,,,,M-ABSA paper (published)
+Mistral zero-shot,published baseline,M-ABSA published result,phone,sw,Swahili,uabsa,test,,,,11.69,,,,M-ABSA paper (published)
+Qwen-2.5 zero-shot,published baseline,M-ABSA published result,phone,sw,Swahili,uabsa,test,,,,15.5,,,,M-ABSA paper (published)
