@@ -1,0 +1,105 @@
+{
+  "verified_utc": "2026-11-14T05:07:36.756881+00:00",
+  "status": "complete_verified",
+  "optimizer_updates": 480,
+  "training_seconds": 4632.3159,
+  "adapter_sha256": "acc5b0d4c2772b4dac60f8cf69d45710593d446ea50ad1220215b5213ada9af7",
+  "language_checks": {
+    "en": {
+      "reviews": 32,
+      "metrics_reproduced": true,
+      "identities_aligned": true
+    },
+    "sw": {
+      "reviews": 32,
+      "metrics_reproduced": true,
+      "identities_aligned": true
+    }
+  },
+  "training_argument_differences": {
+    "output_dir": {
+      "control": "D:\\MSCS\\Thesis\\mabsa-experiments\\results\\eswa-qlora-full-18-v1\\runs\\food-uabsa-seed13\\checkpoints",
+      "pilot": "D:\\MSCS\\Thesis\\mabsa-experiments\\results\\eswa-food-uabsa-lr1e4-dev32-v1\\checkpoints"
+    },
+    "learning_rate": {
+      "control": 0.0002,
+      "pilot": 0.0001
+    },
+    "run_name": {
+      "control": null,
+      "pilot": "eswa-food-uabsa-lr1e4-dev32-v1"
+    },
+    "logging_dir": {
+      "control": null,
+      "pilot": "D:\\MSCS\\Thesis\\mabsa-experiments\\results\\eswa-food-uabsa-lr1e4-dev32-v1\\trainer_logs"
+    }
+  },
+  "error_markers": [],
+  "comparison": {
+    "status": "complete",
+    "learning_rate": 0.0001,
+    "adapter_sha256": "acc5b0d4c2772b4dac60f8cf69d45710593d446ea50ad1220215b5213ada9af7",
+    "predictions": 64,
+    "scores": {
+      "en": {
+        "n": 32,
+        "raw_scores": {
+          "precision": 0.6538461538461539,
+          "recall": 0.5,
+          "f1": 0.5666666666666668
+        },
+        "format_failures": 0,
+        "multiset_sensitivity_f1": 0.5333333333333333,
+        "nonempty_gold_reviews": 25,
+        "omitted_nonempty_reviews": 3,
+        "omission_rate": 0.12
+      },
+      "sw": {
+        "n": 32,
+        "raw_scores": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "format_failures": 0,
+        "multiset_sensitivity_f1": 0.0,
+        "nonempty_gold_reviews": 25,
+        "omitted_nonempty_reviews": 21,
+        "omission_rate": 0.84
+      }
+    },
+    "control": {
+      "en": {
+        "n": 32,
+        "raw_scores": {
+          "precision": 0.6923076923076923,
+          "recall": 0.5294117647058824,
+          "f1": 0.5999999999999999
+        },
+        "format_failures": 0,
+        "multiset_sensitivity_f1": 0.5666666666666667,
+        "nonempty_gold_reviews": 25,
+        "omitted_nonempty_reviews": 3,
+        "omission_rate": 0.12
+      },
+      "sw": {
+        "n": 32,
+        "raw_scores": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "format_failures": 0,
+        "multiset_sensitivity_f1": 0.0,
+        "nonempty_gold_reviews": 25,
+        "omitted_nonempty_reviews": 22,
+        "omission_rate": 0.88
+      }
+    },
+    "difference_f1_points": {
+      "en": -3.3333333333333104,
+      "sw": 0
+    }
+  },
+  "decision": "No observed Swahili F1 gain, English F1 lower by 3.33 points on this development cohort. Prioritize matched Gemma feasibility pilot for author approval."
+}

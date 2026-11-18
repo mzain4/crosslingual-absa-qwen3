@@ -1,0 +1,168 @@
+{
+  "local_repository": [
+    {
+      "domain": "food",
+      "repository_revision": "dadb0ccd55aa6a7e5de1b38ecaa059e64417c37e",
+      "splits": {
+        "train": {
+          "sentences": 1278,
+          "aspects": 1075,
+          "implicit": 698
+        },
+        "dev": {
+          "sentences": 312,
+          "aspects": 338,
+          "implicit": 209
+        },
+        "test": {
+          "sentences": 522,
+          "aspects": 742,
+          "implicit": 414
+        }
+      },
+      "all_sentences": 2112,
+      "all_aspects": 2155,
+      "implicit_aspects": 1321,
+      "implicit_percent": 61.29930394431555,
+      "observed_categories": 10
+    },
+    {
+      "domain": "laptop",
+      "repository_revision": "dadb0ccd55aa6a7e5de1b38ecaa059e64417c37e",
+      "splits": {
+        "train": {
+          "sentences": 1264,
+          "aspects": 1758,
+          "implicit": 392
+        },
+        "dev": {
+          "sentences": 326,
+          "aspects": 440,
+          "implicit": 88
+        },
+        "test": {
+          "sentences": 532,
+          "aspects": 757,
+          "implicit": 147
+        }
+      },
+      "all_sentences": 2122,
+      "all_aspects": 2955,
+      "implicit_aspects": 627,
+      "implicit_percent": 21.218274111675125,
+      "observed_categories": 108
+    },
+    {
+      "domain": "phone",
+      "repository_revision": "dadb0ccd55aa6a7e5de1b38ecaa059e64417c37e",
+      "splits": {
+        "train": {
+          "sentences": 1276,
+          "aspects": 2883,
+          "implicit": 0
+        },
+        "dev": {
+          "sentences": 307,
+          "aspects": 710,
+          "implicit": 0
+        },
+        "test": {
+          "sentences": 522,
+          "aspects": 1217,
+          "implicit": 0
+        }
+      },
+      "all_sentences": 2105,
+      "all_aspects": 4810,
+      "implicit_aspects": 0,
+      "implicit_percent": 0.0,
+      "observed_categories": 86
+    }
+  ],
+  "published_table_1": [
+    {
+      "domain": "food",
+      "sentences": {
+        "train": 1278,
+        "dev": 336,
+        "test": 522,
+        "all": 2136
+      },
+      "aspects": {
+        "train": {
+          "total": 1075,
+          "implicit": 698
+        },
+        "dev": {
+          "total": 338,
+          "implicit": 209
+        },
+        "test": {
+          "total": 742,
+          "implicit": 414
+        },
+        "all": {
+          "total": 2155,
+          "implicit": 1321
+        }
+      },
+      "categories_all": 13
+    },
+    {
+      "domain": "laptop",
+      "sentences": {
+        "train": 1264,
+        "dev": 326,
+        "test": 532,
+        "all": 2122
+      },
+      "aspects": {
+        "train": {
+          "total": 1758,
+          "implicit": 392
+        },
+        "dev": {
+          "total": 440,
+          "implicit": 88
+        },
+        "test": {
+          "total": 757,
+          "implicit": 147
+        },
+        "all": {
+          "total": 2955,
+          "implicit": 627
+        }
+      },
+      "categories_all": 114
+    },
+    {
+      "domain": "phone",
+      "sentences": {
+        "train": 1279,
+        "dev": 307,
+        "test": 523,
+        "all": 2109
+      },
+      "aspects": {
+        "train": {
+          "total": 2883,
+          "implicit": 0
+        },
+        "dev": {
+          "total": 710,
+          "implicit": 0
+        },
+        "test": {
+          "total": 1217,
+          "implicit": 0
+        },
+        "all": {
+          "total": 4810,
+          "implicit": 0
+        }
+      },
+      "categories_all": 88
+    }
+  ]
+}

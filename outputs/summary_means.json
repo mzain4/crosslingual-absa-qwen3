@@ -1,0 +1,386 @@
+[
+  {
+    "system": "Gemma-2 zero-shot",
+    "domain": "food",
+    "task": "tasd",
+    "five_language_mean_f1": 14.466000000000001,
+    "six_language_mean_f1": 14.233333333333334,
+    "swahili_f1": 13.07
+  },
+  {
+    "system": "Gemma-2 zero-shot",
+    "domain": "food",
+    "task": "uabsa",
+    "five_language_mean_f1": 24.166,
+    "six_language_mean_f1": 23.961666666666666,
+    "swahili_f1": 22.94
+  },
+  {
+    "system": "Gemma-2 zero-shot",
+    "domain": "laptop",
+    "task": "tasd",
+    "five_language_mean_f1": 21.006,
+    "six_language_mean_f1": 20.058333333333334,
+    "swahili_f1": 15.32
+  },
+  {
+    "system": "Gemma-2 zero-shot",
+    "domain": "laptop",
+    "task": "uabsa",
+    "five_language_mean_f1": 50.236,
+    "six_language_mean_f1": 49.245,
+    "swahili_f1": 44.29
+  },
+  {
+    "system": "Gemma-2 zero-shot",
+    "domain": "phone",
+    "task": "tasd",
+    "five_language_mean_f1": 25.546,
+    "six_language_mean_f1": 25.053333333333335,
+    "swahili_f1": 22.59
+  },
+  {
+    "system": "Gemma-2 zero-shot",
+    "domain": "phone",
+    "task": "uabsa",
+    "five_language_mean_f1": 34.452,
+    "six_language_mean_f1": 34.02333333333333,
+    "swahili_f1": 31.88
+  },
+  {
+    "system": "Llama-3.1 zero-shot",
+    "domain": "food",
+    "task": "tasd",
+    "five_language_mean_f1": 9.866,
+    "six_language_mean_f1": 9.618333333333334,
+    "swahili_f1": 8.38
+  },
+  {
+    "system": "Llama-3.1 zero-shot",
+    "domain": "food",
+    "task": "uabsa",
+    "five_language_mean_f1": 17.7,
+    "six_language_mean_f1": 17.043333333333333,
+    "swahili_f1": 13.76
+  },
+  {
+    "system": "Llama-3.1 zero-shot",
+    "domain": "laptop",
+    "task": "tasd",
+    "five_language_mean_f1": 15.25,
+    "six_language_mean_f1": 13.86,
+    "swahili_f1": 6.91
+  },
+  {
+    "system": "Llama-3.1 zero-shot",
+    "domain": "laptop",
+    "task": "uabsa",
+    "five_language_mean_f1": 42.636,
+    "six_language_mean_f1": 40.41833333333334,
+    "swahili_f1": 29.33
+  },
+  {
+    "system": "Llama-3.1 zero-shot",
+    "domain": "phone",
+    "task": "tasd",
+    "five_language_mean_f1": 12.192,
+    "six_language_mean_f1": 11.916666666666666,
+    "swahili_f1": 10.54
+  },
+  {
+    "system": "Llama-3.1 zero-shot",
+    "domain": "phone",
+    "task": "uabsa",
+    "five_language_mean_f1": 28.538,
+    "six_language_mean_f1": 27.83,
+    "swahili_f1": 24.29
+  },
+  {
+    "system": "Mistral zero-shot",
+    "domain": "food",
+    "task": "tasd",
+    "five_language_mean_f1": 4.146,
+    "six_language_mean_f1": 3.6483333333333334,
+    "swahili_f1": 1.16
+  },
+  {
+    "system": "Mistral zero-shot",
+    "domain": "food",
+    "task": "uabsa",
+    "five_language_mean_f1": 17.208,
+    "six_language_mean_f1": 15.783333333333333,
+    "swahili_f1": 8.66
+  },
+  {
+    "system": "Mistral zero-shot",
+    "domain": "laptop",
+    "task": "tasd",
+    "five_language_mean_f1": 3.896,
+    "six_language_mean_f1": 3.413333333333333,
+    "swahili_f1": 1.0
+  },
+  {
+    "system": "Mistral zero-shot",
+    "domain": "laptop",
+    "task": "uabsa",
+    "five_language_mean_f1": 34.478,
+    "six_language_mean_f1": 31.509999999999998,
+    "swahili_f1": 16.67
+  },
+  {
+    "system": "Mistral zero-shot",
+    "domain": "phone",
+    "task": "tasd",
+    "five_language_mean_f1": 3.082,
+    "six_language_mean_f1": 2.7600000000000002,
+    "swahili_f1": 1.15
+  },
+  {
+    "system": "Mistral zero-shot",
+    "domain": "phone",
+    "task": "uabsa",
+    "five_language_mean_f1": 21.612000000000002,
+    "six_language_mean_f1": 19.958333333333332,
+    "swahili_f1": 11.69
+  },
+  {
+    "system": "Qwen-2.5 zero-shot",
+    "domain": "food",
+    "task": "tasd",
+    "five_language_mean_f1": 7.998,
+    "six_language_mean_f1": 7.213333333333333,
+    "swahili_f1": 3.29
+  },
+  {
+    "system": "Qwen-2.5 zero-shot",
+    "domain": "food",
+    "task": "uabsa",
+    "five_language_mean_f1": 20.06,
+    "six_language_mean_f1": 18.571666666666665,
+    "swahili_f1": 11.13
+  },
+  {
+    "system": "Qwen-2.5 zero-shot",
+    "domain": "laptop",
+    "task": "tasd",
+    "five_language_mean_f1": 15.23,
+    "six_language_mean_f1": 13.65,
+    "swahili_f1": 5.75
+  },
+  {
+    "system": "Qwen-2.5 zero-shot",
+    "domain": "laptop",
+    "task": "uabsa",
+    "five_language_mean_f1": 45.116,
+    "six_language_mean_f1": 41.51166666666666,
+    "swahili_f1": 23.49
+  },
+  {
+    "system": "Qwen-2.5 zero-shot",
+    "domain": "phone",
+    "task": "tasd",
+    "five_language_mean_f1": 11.502,
+    "six_language_mean_f1": 10.213333333333333,
+    "swahili_f1": 3.77
+  },
+  {
+    "system": "Qwen-2.5 zero-shot",
+    "domain": "phone",
+    "task": "uabsa",
+    "five_language_mean_f1": 29.31,
+    "six_language_mean_f1": 27.008333333333333,
+    "swahili_f1": 15.5
+  },
+  {
+    "system": "Qwen3-4B zero-shot",
+    "domain": "food",
+    "task": "tasd",
+    "five_language_mean_f1": 10.011232807157791,
+    "six_language_mean_f1": 8.949255902849304,
+    "swahili_f1": 3.6393713813068653
+  },
+  {
+    "system": "Qwen3-4B zero-shot",
+    "domain": "food",
+    "task": "uabsa",
+    "five_language_mean_f1": 17.95977283958863,
+    "six_language_mean_f1": 16.674029073875566,
+    "swahili_f1": 10.245310245310245
+  },
+  {
+    "system": "Qwen3-4B zero-shot",
+    "domain": "laptop",
+    "task": "tasd",
+    "five_language_mean_f1": 17.769896508497023,
+    "six_language_mean_f1": 15.325310172110154,
+    "swahili_f1": 3.102378490175801
+  },
+  {
+    "system": "Qwen3-4B zero-shot",
+    "domain": "laptop",
+    "task": "uabsa",
+    "five_language_mean_f1": 39.313976189542885,
+    "six_language_mean_f1": 35.572297712193034,
+    "swahili_f1": 16.86390532544379
+  },
+  {
+    "system": "Qwen3-4B zero-shot",
+    "domain": "phone",
+    "task": "tasd",
+    "five_language_mean_f1": 16.58988375920235,
+    "six_language_mean_f1": 14.407934897847555,
+    "swahili_f1": 3.498190591073582
+  },
+  {
+    "system": "Qwen3-4B zero-shot",
+    "domain": "phone",
+    "task": "uabsa",
+    "five_language_mean_f1": 29.30127464785737,
+    "six_language_mean_f1": 26.91623276310077,
+    "swahili_f1": 14.991023339317774
+  },
+  {
+    "system": "Qwen3-4B three-shot",
+    "domain": "food",
+    "task": "tasd",
+    "five_language_mean_f1": 13.11635893559936,
+    "six_language_mean_f1": 11.391979630081645,
+    "swahili_f1": 2.7700831024930745
+  },
+  {
+    "system": "Qwen3-4B three-shot",
+    "domain": "food",
+    "task": "uabsa",
+    "five_language_mean_f1": 23.045391781331453,
+    "six_language_mean_f1": 21.10653784915995,
+    "swahili_f1": 11.412268188302425
+  },
+  {
+    "system": "Qwen3-4B three-shot",
+    "domain": "laptop",
+    "task": "tasd",
+    "five_language_mean_f1": 19.40955060833801,
+    "six_language_mean_f1": 16.803556324558404,
+    "swahili_f1": 3.7735849056603765
+  },
+  {
+    "system": "Qwen3-4B three-shot",
+    "domain": "laptop",
+    "task": "uabsa",
+    "five_language_mean_f1": 45.0270053967076,
+    "six_language_mean_f1": 40.596409010009765,
+    "swahili_f1": 18.4434270765206
+  },
+  {
+    "system": "Qwen3-4B three-shot",
+    "domain": "phone",
+    "task": "tasd",
+    "five_language_mean_f1": 17.400946322753846,
+    "six_language_mean_f1": 15.279377410080759,
+    "swahili_f1": 4.671532846715328
+  },
+  {
+    "system": "Qwen3-4B three-shot",
+    "domain": "phone",
+    "task": "uabsa",
+    "five_language_mean_f1": 31.7507476982239,
+    "six_language_mean_f1": 29.274612980843152,
+    "swahili_f1": 16.89393939393939
+  },
+  {
+    "system": "Qwen3-4B QLoRA",
+    "domain": "food",
+    "task": "tasd",
+    "five_language_mean_f1": 38.67696277014358,
+    "six_language_mean_f1": 32.784937005810185,
+    "swahili_f1": 3.324808184143223
+  },
+  {
+    "system": "Qwen3-4B QLoRA",
+    "domain": "food",
+    "task": "uabsa",
+    "five_language_mean_f1": 45.834664890267014,
+    "six_language_mean_f1": 38.6692836187195,
+    "swahili_f1": 2.8423772609819125
+  },
+  {
+    "system": "Qwen3-4B QLoRA",
+    "domain": "laptop",
+    "task": "tasd",
+    "five_language_mean_f1": 39.532630451602984,
+    "six_language_mean_f1": 34.04051772522641,
+    "swahili_f1": 6.579954093343536
+  },
+  {
+    "system": "Qwen3-4B QLoRA",
+    "domain": "laptop",
+    "task": "uabsa",
+    "five_language_mean_f1": 62.77794910292291,
+    "six_language_mean_f1": 55.18454508256642,
+    "swahili_f1": 17.217524980784013
+  },
+  {
+    "system": "Qwen3-4B QLoRA",
+    "domain": "phone",
+    "task": "tasd",
+    "five_language_mean_f1": 43.44849005067405,
+    "six_language_mean_f1": 36.69350617382079,
+    "swahili_f1": 2.9185867895545314
+  },
+  {
+    "system": "Qwen3-4B QLoRA",
+    "domain": "phone",
+    "task": "uabsa",
+    "five_language_mean_f1": 48.42322749670798,
+    "six_language_mean_f1": 41.33308173745273,
+    "swahili_f1": 5.88235294117647
+  },
+  {
+    "system": "mT5-base fine-tuned",
+    "domain": "food",
+    "task": "tasd",
+    "five_language_mean_f1": 29.919999999999998,
+    "six_language_mean_f1": 26.776666666666667,
+    "swahili_f1": 11.06
+  },
+  {
+    "system": "mT5-base fine-tuned",
+    "domain": "food",
+    "task": "uabsa",
+    "five_language_mean_f1": 47.446,
+    "six_language_mean_f1": 42.843333333333334,
+    "swahili_f1": 19.83
+  },
+  {
+    "system": "mT5-base fine-tuned",
+    "domain": "laptop",
+    "task": "tasd",
+    "five_language_mean_f1": 27.672,
+    "six_language_mean_f1": 25.835,
+    "swahili_f1": 16.65
+  },
+  {
+    "system": "mT5-base fine-tuned",
+    "domain": "laptop",
+    "task": "uabsa",
+    "five_language_mean_f1": 50.775999999999996,
+    "six_language_mean_f1": 48.03666666666667,
+    "swahili_f1": 34.34
+  },
+  {
+    "system": "mT5-base fine-tuned",
+    "domain": "phone",
+    "task": "tasd",
+    "five_language_mean_f1": 27.474,
+    "six_language_mean_f1": 25.171666666666667,
+    "swahili_f1": 13.66
+  },
+  {
+    "system": "mT5-base fine-tuned",
+    "domain": "phone",
+    "task": "uabsa",
+    "five_language_mean_f1": 42.644,
+    "six_language_mean_f1": 39.68666666666667,
+    "swahili_f1": 24.9
+  }
+]

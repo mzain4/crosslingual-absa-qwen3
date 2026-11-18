@@ -1,0 +1,38 @@
+[
+  {
+    "task": "tasd",
+    "domain": "food",
+    "sentence": "__SENTENCE__",
+    "sha256": "15f796385e4d09f93278fae9a921f0606c4817eaa8f581a8d2f33a0f86615247"
+  },
+  {
+    "task": "uabsa",
+    "domain": "food",
+    "sentence": "__SENTENCE__",
+    "sha256": "a73f5a4537cd80fb95da38a6071a9d23bb1336816e39efb949dbd3ec92ffa435"
+  },
+  {
+    "task": "tasd",
+    "domain": "laptop",
+    "sentence": "__SENTENCE__",
+    "sha256": "6c87ee7556d7f42e523a133696e7716d1404e233ff716e5999b1f45ecec58de7"
+  },
+  {
+    "task": "uabsa",
+    "domain": "laptop",
+    "sentence": "__SENTENCE__",
+    "sha256": "a73f5a4537cd80fb95da38a6071a9d23bb1336816e39efb949dbd3ec92ffa435"
+  },
+  {
+    "task": "tasd",
+    "domain": "phone",
+    "sentence": "__SENTENCE__",
+    "sha256": "07a5ddb37f35e94fc915e2aad9b5cd37da941420a9170dc57a5ddde59cc7824c"
+  },
+  {
+    "task": "uabsa",
+    "domain": "phone",
+    "sentence": "__SENTENCE__",
+    "sha256": "a73f5a4537cd80fb95da38a6071a9d23bb1336816e39efb949dbd3ec92ffa435"
+  }
+]

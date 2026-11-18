@@ -1,0 +1,158 @@
+{
+  "fingerprint": "09a88d6040a3ca8f3900b7d96d1ffdf0eb0ea5f64dd060929067b76e4686403a",
+  "protocol": {
+    "model": "google/mt5-base",
+    "model_revision": "2eb15465c5dd7f72a8f7984306ad05ebc3dd1e1f",
+    "dataset_revision": "dadb0ccd55aa6a7e5de1b38ecaa059e64417c37e",
+    "epochs": 30,
+    "step_cap": 2500,
+    "effective_batch": 16,
+    "micro_batch": 4,
+    "eval_batch": 8,
+    "learning_rate": 0.0003,
+    "adam_epsilon": 1e-06,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.0,
+    "dropout": 0.1,
+    "max_source_length": 128,
+    "max_target_length": 128,
+    "precision": "fp32",
+    "decoding": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_length": 128
+    },
+    "selection": "English dev historical raw F1, every 100 steps in final 500 plus final step",
+    "data_hashes": [
+      {
+        "relative_path": "data/food/en/train.txt",
+        "canonical_lf_sha256": "d979fbaf6a6a6a90804b0974ac317339daa5f5da06f7af0cf8d67de298dd372d",
+        "sentences": 1278
+      },
+      {
+        "relative_path": "data/food/en/dev.txt",
+        "canonical_lf_sha256": "a54f012b94dabd5b300ea76e83f8457e64a6642a6b714c44b2781c7900885531",
+        "sentences": 312
+      },
+      {
+        "relative_path": "data/food/en/test.txt",
+        "canonical_lf_sha256": "9c98cd47680ebbafc69163836956066430dccf1427e557c30cb5479ff9c72b3e",
+        "sentences": 522
+      },
+      {
+        "relative_path": "data/food/de/test.txt",
+        "canonical_lf_sha256": "c68f62a7e4620875507ade0a3c6097b4ef01e4cc5b524c72dfad2948edca2f9f",
+        "sentences": 522
+      },
+      {
+        "relative_path": "data/food/fr/test.txt",
+        "canonical_lf_sha256": "361b42c8d3ae4a7628dfa1b4949d33ee6e549a6591024ccb0b00843f3633c0fe",
+        "sentences": 522
+      },
+      {
+        "relative_path": "data/food/ar/test.txt",
+        "canonical_lf_sha256": "6bfca2e26702e1568fbec216d8dbd933b7e6daa4d534f04fc17b2d896ad83304",
+        "sentences": 522
+      },
+      {
+        "relative_path": "data/food/hi/test.txt",
+        "canonical_lf_sha256": "1382438cb572c4c44e4df99e52b4f3b65dd1eeeaeb9a2e80f7d76d76b5e278d5",
+        "sentences": 522
+      },
+      {
+        "relative_path": "data/food/sw/test.txt",
+        "canonical_lf_sha256": "a174282b4402e00a6db6420ff306a8c76c58df38afee133b3e396c38bacb8144",
+        "sentences": 522
+      },
+      {
+        "relative_path": "data/laptop/en/train.txt",
+        "canonical_lf_sha256": "13feb3d973886db737d0fd0469657841c504acf7348b76cd6b0ceba0a82d8c3b",
+        "sentences": 1264
+      },
+      {
+        "relative_path": "data/laptop/en/dev.txt",
+        "canonical_lf_sha256": "bace3d6c94df50b654410b195b79dc6235bb184984d226110e1fb949d14df9ee",
+        "sentences": 326
+      },
+      {
+        "relative_path": "data/laptop/en/test.txt",
+        "canonical_lf_sha256": "9b80e1a65d46459b8ee34f32058938b18ddfc9c6b5c992cb00c776491b283770",
+        "sentences": 532
+      },
+      {
+        "relative_path": "data/laptop/de/test.txt",
+        "canonical_lf_sha256": "93e29352dba14b33eec751240b0ced41dd937c598b3b260bf5f3b65451570a29",
+        "sentences": 532
+      },
+      {
+        "relative_path": "data/laptop/fr/test.txt",
+        "canonical_lf_sha256": "08ad8215e84658aff5d201b0f29a340604dea7f089fdcfc250b8f662cc3febbe",
+        "sentences": 532
+      },
+      {
+        "relative_path": "data/laptop/ar/test.txt",
+        "canonical_lf_sha256": "43dcfb1628e43de86ce80e715af3113ccf8c3aeaa8c71a3fc2913680be1dc420",
+        "sentences": 532
+      },
+      {
+        "relative_path": "data/laptop/hi/test.txt",
+        "canonical_lf_sha256": "c28caed950c6dce14ba10bf754e8a3be40af42f37bfd9f758424781806e9a082",
+        "sentences": 532
+      },
+      {
+        "relative_path": "data/laptop/sw/test.txt",
+        "canonical_lf_sha256": "c50b294ba830c47efccf2e9a22b7e455feb8bf87e014cdc1d2de3767e2dc1bd4",
+        "sentences": 532
+      },
+      {
+        "relative_path": "data/phone/en/train.txt",
+        "canonical_lf_sha256": "b21f34456c08bb82b9e867bdfb9509a99692589b1d598a98fbfbc61f9be18c7f",
+        "sentences": 1276
+      },
+      {
+        "relative_path": "data/phone/en/dev.txt",
+        "canonical_lf_sha256": "a2768b0c69cac0d63df72f99a52e22222b0b501cdea24b11df715bf6a1560bd8",
+        "sentences": 307
+      },
+      {
+        "relative_path": "data/phone/en/test.txt",
+        "canonical_lf_sha256": "fafffd4ed55124df056effce8ef5ae4273dc4ef0a230a5e189cb7fa2faecf69e",
+        "sentences": 522
+      },
+      {
+        "relative_path": "data/phone/de/test.txt",
+        "canonical_lf_sha256": "eb802c267e67818730d57d47281dd9cfa30f38a06a25a06f2b9f28157aaa021e",
+        "sentences": 522
+      },
+      {
+        "relative_path": "data/phone/fr/test.txt",
+        "canonical_lf_sha256": "8c93bda240affb040d36745912798df8fc62729818c585f9e0f794f061106e61",
+        "sentences": 522
+      },
+      {
+        "relative_path": "data/phone/ar/test.txt",
+        "canonical_lf_sha256": "ec7a2753e772ccb74ddd0be66eb0e342ffdc1255d9d08bce89cf862b5a15ce8a",
+        "sentences": 522
+      },
+      {
+        "relative_path": "data/phone/hi/test.txt",
+        "canonical_lf_sha256": "4c85155619500eea0678c6c2bf128d17d1666343812d1d8e577870a3cd04c4ec",
+        "sentences": 522
+      },
+      {
+        "relative_path": "data/phone/sw/test.txt",
+        "canonical_lf_sha256": "9efaaad62f6bf29e4291d94ea01e3deee6f8f424d55d2a591f2cf31ef6291928",
+        "sentences": 522
+      }
+    ],
+    "packages": {
+      "torch": "2.14.1+cu130",
+      "transformers": "4.57.1",
+      "accelerate": "1.11.0",
+      "sentencepiece": "0.2.1",
+      "huggingface-hub": "0.36.0"
+    },
+    "runner_sha256": "628d0cb5665994b0dc41c169b320b008bac3a2372e32d1b3ec078069386e66f2",
+    "scoring": "frozen raw membership matcher, blank TASD mapped to zero on both sides"
+  }
+}

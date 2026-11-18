@@ -1,0 +1,15 @@
+{
+  "conditions.json": "8acdfba9aa2433977d5bdeb5531b5ff6a71c11f5ec2216891fe975c80b547515",
+  "review_counts.jsonl.gz": "d59742dc4a448dde3f621901b2773dba9f6a6364b1cfa3d4836de0e8b284f0dc",
+  "scores.json": "d43543f5bfcca41ebab0f42d129f3a72db845c2d7c65d0d5c108fc938650bcdf",
+  "registries/final-transfer-and-model-analysis/analysis.json": "5e6c537d22cd66dae6a4e2779d353648f269269b6df44dc5072dfab9e82564c5",
+  "registries/three-seed-analysis/analysis.json": "9933e3b950d500e1c8a60accc95172c66fc9c04a4aa0128bf6930205bb06330e",
+  "registries/three-seed-analysis/error_counts_by_seed_language.csv": "bebb5669c2b24abfdd84436378c4211eded367f156f2ef7ec1b193492512e38f",
+  "registries/three-seed-analysis/food_checkpoint_trajectory.md": "0fb96dbc34fa0bcbc0af2088af2b7a43e83485ce0ddd44ce52a99407edce8524",
+  "registries/three-seed-analysis/food_lower_lr_comparison.json": "d80a2061e035d4a3bb6f83fd31b4af8719caadf849b676d20582eb3340f58c6a",
+  "registries/three-seed-analysis/language_summary.csv": "918d6e1f38f0af6dec6ad5bb0e24ccbea2e65a8be316fe3b231c5b0b247b81ef",
+  "registries/three-seed-analysis/mt5_checkpoint_selection.csv": "4c822b9bc14ab1a373ffb34ee67d152c3fef754ea0f48d57ff9ae08b66fee577",
+  "registries/swahili-explanation/food-final-test-comparison/comparison.json": "b67005735f2956f9b7d8df904557692660406bf11d08ed88dfec6e6bc18a798c",
+  "registries/swahili-explanation/phone-three-seed-comparison/comparison.json": "e761e71cd4c24b581d2d184565385980b34c97ad875ce9ef673ff4a90eb72481",
+  "registries/swahili-explanation/three-seed-weighted-comparison/comparison.json": "181148b87538379440aee0ef8360b71dc9f077f05bcfc27f105d87f416d8b7ed"
+}

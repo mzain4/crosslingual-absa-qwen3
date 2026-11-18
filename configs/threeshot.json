@@ -1,0 +1,26 @@
+{
+  "strategy": "three-shot",
+  "description": "Three fixed English training examples are prepended. Instructions and output schema are identical to the zero-shot configuration, so the difference isolates the demonstrations.",
+  "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_revision": "cdbee75f",
+  "domains": ["food", "laptop", "phone"],
+  "languages": ["en", "de", "fr", "ar", "hi", "sw"],
+  "tasks": ["tasd", "uabsa"],
+  "source_language": "en",
+  "demonstrations": 3,
+  "demonstration_indices": {
+    "food": [13, 32, 44],
+    "laptop": [135, 185, 37],
+    "phone": [4, 7, 12]
+  },
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": { "tasd": 128, "uabsa": 96 }
+  },
+  "scoring": {
+    "evaluator": "M-ABSA eval_baseline_mT5/eval_utils.py",
+    "metric": "raw exact-tuple micro-F1",
+    "edit_distance_repair": false,
+    "empty_tasd_mode": "released_evaluator"
+  }
+}

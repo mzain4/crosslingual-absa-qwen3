@@ -1,0 +1,16 @@
+{
+  "model_revision": "83df0a889143b1dbfc61b591bbc639540fd9ce4c",
+  "data_sha256": "350ba7c114e1f4ef752cafc335eb8e23203d6508bcfa02b516e331c441c17660",
+  "precision": "nf4_double_quant_frozen_matrices_bf16_vectors_fp32_v2",
+  "rank": 8,
+  "alpha": 16,
+  "seed_scope": [
+    13,
+    42,
+    87
+  ],
+  "task": "laptop_uabsa",
+  "worker_isolation": "separate_process_per_model_load_v3",
+  "initialization": "reseed_immediately_before_lora_v4",
+  "determinism": "strict_cuda_fixed_python_hash_training_trace_v5"
+}

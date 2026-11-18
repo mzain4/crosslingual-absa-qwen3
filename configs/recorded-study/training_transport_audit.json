@@ -1,0 +1,17 @@
+{
+  "prompt_conditions_verified": 6,
+  "data_reviews_parsed": 38034,
+  "all_gold_and_answer_transports_verified": true,
+  "system_prompt_matches": true,
+  "training_answer_legacy_differences_by_domain_and_task": {
+    "food_tasd": 0,
+    "food_uabsa": 0,
+    "laptop_tasd": 1,
+    "laptop_uabsa": 1,
+    "phone_tasd": 9,
+    "phone_uabsa": 9
+  },
+  "affected_distinct_training_reviews": 10,
+  "whitespace_only_reviews": 5,
+  "delimiter_affected_reviews": 5
+}
